@@ -1,7 +1,7 @@
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
-from hdwallet import BIP44HDWallet
-from hdwallet import Wallet
+from hdwallets import BIP44HDWallet
+from hdwallets import Wallet
 import requests
 import random
 
